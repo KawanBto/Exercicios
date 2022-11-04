@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="loja"></div>
+    <script>
+        let nome = prompt("Digite o nome da loja");
+        let janeiro = prompt("Digite o total do mês de Janeiro");
+        let fevereiro = prompt("Digite o total do mês de Fevereiro");
+        let marco = prompt("Digite o total do mês de Março");
+        let abril = prompt("Digite o total do mês de Abril");
+        let maio = prompt("Digite o total do mês de Maio");
+        let junho = prompt("Digite o total do mês de Junho");
+        let julho = prompt("Digite o total do mês de Julho");
+        let agosto = prompt("Digite o total do mês de Agosto"); 
+        let setembro = prompt("Digite o total do mês de Setembro");
+        let outubro = prompt("Digite o total do mês de Outubro");
+        let novembro = prompt("Digite o total do mês de Novembro");
+        let dezembro = prompt("Digite o total do mês de Dezembro");
+        let totalprimeiro = Number(janeiro) + Number(fevereiro) + Number(marco) + Number(abril) + Number(maio) + Number(junho);
+        let totalsegundo = Number(julho) + Number(agosto) + Number(setembro) + Number(outubro) + Number(novembro) + Number(dezembro);
+
+        document.getElementById("loja").innerHTML = "Loja: " + nome + "Total Primeiro Semestre: " + totalprimeiro + "Total Segundo Semestre: " + totalsegundo;
+        
+
+
+
+    </script>
+</body>
+</html>
